@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef ParentName="FactionBase">
+    <defName>Abandoned</defName>
+    <label>Abandoned City</label>
+    <description>An abondoned town from one of this worlds many lost civilizations.</description>
+    <pawnsPlural>Scavangers</pawnsPlural>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <maxCountAtGameStart>5</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>Camp Leader</leaderTitle>
+    <earliestRaidDays>200</earliestRaidDays>
+    <factionIconPath>World/WorldObjects/Expanding/DestroyedSettlement</factionIconPath>
+    <colorSpectrum>
+      <li>(0.64, 0.42, 0.36)</li>
+      <li>(0.47, 0.5, 0.91)</li>
+    </colorSpectrum>
+    <mustStartOneEnemy>false</mustStartOneEnemy>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <techLevel>Spacer</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <allowedCultures>
+      <li>Rustican</li>
+    </allowedCultures>
+    <allowedArrivalTemperatureRange>
+      <min>30</min>
+      <max>31</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,1)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <settlementTexturePath>World/WorldObjects/Expanding/DestroyedSettlement</settlementTexturePath>
+  </FactionDef>
+</Defs>

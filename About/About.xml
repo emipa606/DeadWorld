@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Dead World (Continued)</name>
   <packageId>Mlie.DeadWorld</packageId>
@@ -7,17 +7,18 @@
   <supportedVersions>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Crlsnipers mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=852825850
 
 - Replaced the vanilla overwrites with patches instead
 - If Royalty is active the Empire-faction will regenerate itself at first load of a save, this is hardcoded so you better disable Royalty if you want to keep the empty planet.
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
@@ -26,7 +27,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=852825850
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 Ruins of a fallen world scatter this planet, Will you rise to the challage of rebuilding it or will you to fall as those that came before did. Mod Suggested by GoliathsMarbles.
 
 This mod creates a new faction type called Abandoned City that will replace all other factions at the start of a new game. Basically this mod removes the other factions from the game so you can roleplay your own growth on the world or just to allow you to create new types of colonys not solely based around defense from attacker. Though you still need to worry about survival from the other beasts and problems affecting the world around you.
@@ -40,7 +41,7 @@ Known errors
 
 If you find anymore  please let me know in the comments below.
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -51,4 +52,3 @@ If you find anymore  please let me know in the comments below.
 [/list]
 </description>
 </ModMetaData>
-

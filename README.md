@@ -1,6 +1,6 @@
 # DeadWorld
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Crlsnipers mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=852825850
@@ -8,10 +8,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=852825850
 - Replaced the vanilla overwrites with patches instead
 - If Royalty is active the Empire-faction will regenerate itself at first load of a save, this is hardcoded so you better disable Royalty if you want to keep the empty planet.
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 Ruins of a fallen world scatter this planet, Will you rise to the challage of rebuilding it or will you to fall as those that came before did. Mod Suggested by GoliathsMarbles.
 
@@ -26,7 +26,7 @@ Known errors
 
 If you find anymore  please let me know in the comments below.
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
