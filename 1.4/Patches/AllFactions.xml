@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/FactionDef[not(defName="Abandoned")]/requiredCountAtGameStart</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/FactionDef[not(defName="Abandoned")]/requiredCountAtGameStart</xpath>
+      <value>
+        <requiredCountAtGameStart>0</requiredCountAtGameStart>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/FactionDef[not(defName="Abandoned")]</xpath>
+      <value>
+        <requiredCountAtGameStart>0</requiredCountAtGameStart>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/FactionDef[not(defName="Abandoned")]/maxCountAtGameStart</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/FactionDef[not(defName="Abandoned")]/maxCountAtGameStart</xpath>
+      <value>
+        <maxCountAtGameStart>0</maxCountAtGameStart>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/FactionDef[not(defName="Abandoned")]</xpath>
+      <value>
+        <maxCountAtGameStart>0</maxCountAtGameStart>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/FactionDef[not(defName="Abandoned")]/mustStartOneEnemy</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/FactionDef[not(defName="Abandoned")]/mustStartOneEnemy</xpath>
+      <value>
+        <mustStartOneEnemy>false</mustStartOneEnemy>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/FactionDef[not(defName="Abandoned")]</xpath>
+      <value>
+        <mustStartOneEnemy>false</mustStartOneEnemy>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/FactionDef[not(defName="Abandoned")]/canMakeRandomly</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/FactionDef[not(defName="Abandoned")]/canMakeRandomly</xpath>
+      <value>
+        <canMakeRandomly>false</canMakeRandomly>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/FactionDef[not(defName="Abandoned")]</xpath>
+      <value>
+        <canMakeRandomly>false</canMakeRandomly>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>
